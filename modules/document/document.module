@@ -1,0 +1,12 @@
+<?php
+function document_theme()
+{
+
+    return array(
+        'hello' => array(
+            'template' => 'word',
+            'variables' => array('texte' => NULL)
+        ),
+    );
+
+}

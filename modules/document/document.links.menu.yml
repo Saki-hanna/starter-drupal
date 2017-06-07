@@ -1,0 +1,6 @@
+document.admin:
+  title: 'Module settings'
+  description: 'example of how to make an admin settings page link'
+  parent: system.admin
+  route_name: document.hello
+  weight: 100

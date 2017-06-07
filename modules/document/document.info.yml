@@ -1,0 +1,6 @@
+name: My first module (Hello World)
+description: Un module de démontration sur D8
+type: module
+core: 8.x
+version: 8.x-1.x-dev
+package: evaroux
