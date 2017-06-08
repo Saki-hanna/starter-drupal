@@ -1,6 +1,13 @@
-document.admin:
-  title: 'Module settings'
-  description: 'example of how to make an admin settings page link'
-  parent: system.admin
-  route_name: document.hello
+# Document entity menu items definition
+entity.document_entity.collection:
+  title: 'Document entity list'
+  route_name: entity.document_entity.collection
+  description: 'List Document entity entities'
+  parent: system.admin_structure
   weight: 100
+
+document_entity.admin.structure.settings:
+  title: Document entity settings
+  description: 'Configure Document entity entities'
+  route_name: document_entity.settings
+  parent: system.admin_structure

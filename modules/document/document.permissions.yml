@@ -1,0 +1,22 @@
+add document entity entities:
+  title: 'Create new Document entity entities'
+
+administer document entity entities:
+  title: 'Administer Document entity entities'
+  description: 'Allow to access the administration form to configure Document entity entities.'
+  restrict access: true
+
+delete document entity entities:
+  title: 'Delete Document entity entities'
+
+edit document entity entities:
+  title: 'Edit Document entity entities'
+
+access document entity overview:
+  title: 'Access the Document entity overview page'
+
+view published document entity entities:
+  title: 'View published Document entity entities'
+
+view unpublished document entity entities:
+  title: 'View unpublished Document entity entities'

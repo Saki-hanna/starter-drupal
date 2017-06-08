@@ -1,0 +1,5 @@
+entity.document_entity.add_form:
+  route_name: entity.document_entity.add_form
+  title: 'Add Document entity'
+  appears_on:
+    - entity.document_entity.collection

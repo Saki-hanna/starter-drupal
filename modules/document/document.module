@@ -1,12 +1,19 @@
 <?php
-function document_theme()
+function document_word_theme()
 {
-
-    return array(
-        'hello' => array(
+    return [
+        'hello' => [
             'template' => 'word',
-            'variables' => array('texte' => NULL)
-        ),
-    );
+            'variables' => ['texte' => NULL]
+        ],
+    ];
+}
 
+function document_list_theme()
+{
+    return [
+        'listDocument' => [
+            'template' => 'listDocument'
+        ],
+    ];
 }

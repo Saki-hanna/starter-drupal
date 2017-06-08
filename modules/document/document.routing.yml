@@ -5,3 +5,11 @@ document.hello:
     _title: 'Mon premier module'
   requirements:
     _permission: 'access content'
+
+document.list:
+  path: '/list-document'
+  defaults:
+    _controller: '\Drupal\document\Controller\DocumentController::listDocument'
+    _title: 'Listes des documents'
+  requirements:
+    _permission: 'access content'
